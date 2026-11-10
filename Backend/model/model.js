@@ -13,3 +13,6 @@ const loginShema = new mongoose.Schema[
   },
   { times: timestamp })
 ]();
+
+const user = loginShema 
+export default loginShema
